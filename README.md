@@ -1,5 +1,5 @@
 # Timetable Scheduler
-![scheduler-preveiw](https://github.com/chiefsan/TimetableScheduler/blob/master/scheduler.PNG)
+![scheduler-preveiw](https://github.com/chiefsan/TimetableScheduler/blob/master/scheduler.PNG?raw=true)
 Timetable scheduling problem is a constraint satisfaction problem around scheduling resources. It can be a tedious and frustrating job due to the NP-hard nature of the problem. This repository contains an implementation of a [solution](https://www.academia.edu/download/56355803/52a46bee76a6395818da5984aacdb4e7568b.pdf) to the problem using genetic algorithms in R. 
 
 ## Constraints
