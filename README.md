@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# Timetable Scheduler
+![scheduler-preveiw](https://github.com/chiefsan/TimetableScheduler/blob/master/scheduler.PNG)
+Timetable scheduling problem is a constraint satisfaction problem around scheduling resources. It can be a tedious and frustrating job due to the NP-hard nature of the problem. This repository contains an implementation of a [solution](https://www.academia.edu/download/56355803/52a46bee76a6395818da5984aacdb4e7568b.pdf) to the problem using genetic algorithms in R. 
 
-You can use the [editor on GitHub](https://github.com/chiefsan/TimetableScheduler/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Constraints
+The timetable satisfies the following conditions:
+- All lectures should take place exactly once
+- Group *g* can attend only one class at one
+time
+- Instructor *i* can teach only one class at one
+time
+- In room *r* only one class can be taught at one
+time
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Usage
 
-### Markdown
+- Enter the list of available rooms and time slots in the application
+- Enter the preferences in the form(Course, Professor, Room1, Room2, Slot1, Slot2) 
+- The output would be stored in new `csv` file called `schedule.csv`. (example: [schedule.csv](https://github.com/chiefsan/TimetableScheduler/blob/master/schedule.csv))
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/chiefsan/TimetableScheduler/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## License
+[MIT](https://github.com/chiefsan/TimetableScheduler/blob/master/LICENSE)
