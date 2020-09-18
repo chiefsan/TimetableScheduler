@@ -1,1 +1,10 @@
-theme: jekyll-theme-cayman
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: chiefsan/minimal
+show_downloads: true
+enable_nav: true
+nav_item:
+  - { url: '/', text: 'Home' }
+  - { url: '/cv', text: 'CV' }
+baseurl: "" # the subpath of your site, e.g. /blog
